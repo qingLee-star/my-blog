@@ -37,6 +37,22 @@ module.exports = {
           { title: "笔试题集合", path: "/interview/written" },
           { title: "面试题集合", path: "/interview/notes" }
         ],
+      },
+      {
+        title: "学习笔记",
+        path: '/react/react-book',
+        collapsable: false, // 不折叠
+        children: [
+          { title: "react小书", path: "/react/react-book" },
+        ],
+      },
+      {
+        title: "其他",
+        path: '/other/geogryphy',
+        collapsable: false, // 不折叠
+        children: [
+          { title: "地理杂记", path: "/other/geogryphy" },
+        ],
       }
     ]
   }
